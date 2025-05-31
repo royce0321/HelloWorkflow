@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         print("Step 1")
         print("Step 3")
         print("Step 4")
+        print("Stpe 10", Date().month)
     }
 
     override func viewWillAppear(_ animated: Bool) {
