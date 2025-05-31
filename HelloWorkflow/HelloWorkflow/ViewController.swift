@@ -9,6 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        print("Step 12")
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
