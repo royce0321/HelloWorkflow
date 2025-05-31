@@ -13,6 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         print("Step 1")
+        print("Step 3")
     }
 
     deinit {
