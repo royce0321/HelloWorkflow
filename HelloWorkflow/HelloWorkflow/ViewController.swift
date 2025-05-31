@@ -14,6 +14,7 @@ class ViewController: UIViewController {
 
         print("Step 1")
         print("Step 3")
+        print("Step 4")
     }
 
     deinit {
