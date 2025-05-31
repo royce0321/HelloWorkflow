@@ -11,7 +11,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        print("Step 1")
+        print("Step 3")
+        print("Step 4")
     }
 
     deinit {
