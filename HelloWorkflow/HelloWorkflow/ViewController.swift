@@ -29,6 +29,12 @@ class ViewController: UIViewController {
         print("Step 6")
     }
 
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+
+        print("Step 7")
+    }
+
     deinit {
         print("Step 2")
     }
