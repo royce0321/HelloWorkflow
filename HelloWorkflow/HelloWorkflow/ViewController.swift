@@ -23,6 +23,12 @@ class ViewController: UIViewController {
         print("Step 5")
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+
+        print("Step 6")
+    }
+
     deinit {
         print("Step 2")
     }
